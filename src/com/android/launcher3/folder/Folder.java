@@ -101,9 +101,9 @@ import com.android.launcher3.views.ActivityContext;
 import com.android.launcher3.views.BaseDragLayer;
 import com.android.launcher3.views.ClipPathView;
 import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.saggitt.omega.groups.DrawerFolderInfo;
-import com.saggitt.omega.preferences.OmegaPreferences;
-import com.saggitt.omega.views.CustomBottomSheet;
+import com.tglt.sagittarius.groups.DrawerFolderInfo;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
+import com.tglt.sagittarius.views.CustomBottomSheet;
 
 import java.util.ArrayList;
 import java.util.Collections;

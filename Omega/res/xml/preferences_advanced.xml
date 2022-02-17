@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~  This file is part of Omega Launcher
+  ~  This file is part of Sagittarius Launcher
   ~  Copyright (c) 2021   Saul Henriquez
   ~
   ~  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
   -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.saggitt.omega.preferences.custom.LanguagePreference
+    <com.tglt.sagittarius.preferences.custom.LanguagePreference
         android:defaultValue=""
         android:icon="@drawable/ic_language"
         android:key="pref_language"

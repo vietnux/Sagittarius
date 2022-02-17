@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.Launcher;
 import com.android.launcher3.R;
-import com.saggitt.omega.util.OmegaUtilsKt;
+import com.tglt.sagittarius.util.OmegaUtilsKt;
 
 import java.util.Locale;
 

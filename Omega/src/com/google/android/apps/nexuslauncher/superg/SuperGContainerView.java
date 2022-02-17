@@ -10,7 +10,7 @@ import android.view.View;
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.R;
-import com.saggitt.omega.util.OmegaUtilsKt;
+import com.tglt.sagittarius.util.OmegaUtilsKt;
 
 public class SuperGContainerView extends BaseGContainerView {
 

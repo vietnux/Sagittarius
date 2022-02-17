@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~  This file is part of Omega Launcher
+  ~  This file is part of Sagittarius Launcher
   ~  Copyright (c) 2021   Saul Henriquez
   ~
   ~  This program is free software: you can redistribute it and/or modify
@@ -49,7 +49,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/icon_preferences"
-            android:name="com.saggitt.omega.preferences.views.PrefIconShapeFragment"
+            android:name="com.tglt.sagittarius.preferences.views.PrefIconShapeFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/shape_view"

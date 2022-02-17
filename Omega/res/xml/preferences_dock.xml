@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~  This file is part of Omega Launcher
+  ~  This file is part of Sagittarius Launcher
   ~  Copyright (c) 2021   Saul Henriquez
   ~
   ~  This program is free software: you can redistribute it and/or modify
@@ -41,7 +41,7 @@
         app:cpv_showAlphaSlider="false"
         app:iconSpaceReserved="false" />
 
-    <com.saggitt.omega.preferences.custom.SeekbarPreference
+    <com.tglt.sagittarius.preferences.custom.SeekbarPreference
         android:dependency="pref_dockBackground"
         android:key="pref_dockOpacity"
         android:title="@string/title_opacity"
@@ -50,7 +50,7 @@
         app:summaryFormat="%.0f%%"
         app:summaryMultiplier="100" />
 
-    <com.saggitt.omega.preferences.custom.SeekbarPreference
+    <com.tglt.sagittarius.preferences.custom.SeekbarPreference
         android:key="pref_dockScale"
         android:title="@string/title__dock_scale"
         app:defaultSeekbarValue="1.0"

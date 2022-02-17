@@ -79,8 +79,8 @@ import com.android.quickstep.TaskUtils;
 import com.android.quickstep.util.QuickstepOnboardingPrefs;
 import com.android.quickstep.views.RecentsView;
 import com.android.quickstep.views.TaskView;
-import com.saggitt.omega.OmegaApp;
-import com.saggitt.omega.gestures.VerticalSwipeGestureController;
+import com.tglt.sagittarius.OmegaApp;
+import com.tglt.sagittarius.gestures.VerticalSwipeGestureController;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

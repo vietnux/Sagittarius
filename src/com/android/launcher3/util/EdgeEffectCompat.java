@@ -20,7 +20,7 @@ import android.view.View;
 import android.widget.EdgeEffect;
 
 import com.android.launcher3.Utilities;
-import com.saggitt.omega.views.StretchEdgeEffect;
+import com.tglt.sagittarius.views.StretchEdgeEffect;
 /**
  * Extension of {@link EdgeEffect} to allow backwards compatibility
  */

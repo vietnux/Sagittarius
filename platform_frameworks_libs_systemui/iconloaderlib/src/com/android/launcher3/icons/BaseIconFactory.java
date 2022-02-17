@@ -28,9 +28,9 @@ import android.os.UserHandle;
 import androidx.annotation.NonNull;
 
 import com.android.launcher3.icons.BitmapInfo.Extender;
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
-import com.saggitt.omega.icons.ExtendedBitmapDrawable;
-import com.saggitt.omega.icons.IconPreferencesKt;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.ExtendedBitmapDrawable;
+import com.tglt.sagittarius.icons.IconPreferencesKt;
 
 /**
  * This class will be moved to androidx library. There shouldn't be any dependency outside

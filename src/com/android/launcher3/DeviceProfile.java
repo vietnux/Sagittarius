@@ -46,7 +46,7 @@ import com.android.launcher3.icons.IconNormalizer;
 import com.android.launcher3.util.DisplayController;
 import com.android.launcher3.util.DisplayController.Info;
 import com.android.launcher3.util.WindowBounds;
-import com.saggitt.omega.preferences.OmegaPreferences;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
 
 import java.io.PrintWriter;
 

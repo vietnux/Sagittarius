@@ -42,8 +42,8 @@ import com.android.launcher3.dragndrop.DragLayer;
 import com.android.launcher3.testing.TestLogging;
 import com.android.launcher3.testing.TestProtocol;
 import com.android.launcher3.views.OptionsPopupView;
-import com.saggitt.omega.OmegaLauncher;
-import com.saggitt.omega.gestures.GestureController;
+import com.tglt.sagittarius.OmegaLauncher;
+import com.tglt.sagittarius.gestures.GestureController;
 
 /**
  * Helper class to handle touch on empty space in workspace and show options popup on long press

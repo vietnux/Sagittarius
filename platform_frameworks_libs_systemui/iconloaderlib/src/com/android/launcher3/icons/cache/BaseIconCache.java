@@ -50,7 +50,7 @@ import com.android.launcher3.icons.BaseIconFactory;
 import com.android.launcher3.icons.BitmapInfo;
 import com.android.launcher3.util.ComponentKey;
 import com.android.launcher3.util.SQLiteCacheHelper;
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
 
 import java.util.AbstractMap;
 import java.util.Collections;

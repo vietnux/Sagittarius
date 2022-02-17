@@ -48,7 +48,7 @@ import androidx.annotation.Nullable;
 
 import com.android.launcher3.icons.ThemedIconDrawable.ThemeData;
 import com.android.launcher3.util.SafeCloseable;
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
 
 import org.xmlpull.v1.XmlPullParser;
 

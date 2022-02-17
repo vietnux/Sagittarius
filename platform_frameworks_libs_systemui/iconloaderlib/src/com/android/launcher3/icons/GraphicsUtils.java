@@ -29,7 +29,7 @@ import android.util.Log;
 
 import androidx.annotation.ColorInt;
 
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

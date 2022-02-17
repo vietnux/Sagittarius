@@ -63,8 +63,8 @@ import com.android.launcher3.widget.LauncherAppWidgetProviderInfo;
 import com.android.launcher3.widget.PendingAppWidgetHostView;
 import com.android.launcher3.widget.WidgetAddFlowHandler;
 import com.android.launcher3.widget.WidgetManagerHelper;
-import com.saggitt.omega.util.Config;
-import com.saggitt.omega.util.DbHelper;
+import com.tglt.sagittarius.util.Config;
+import com.tglt.sagittarius.util.DbHelper;
 
 /**
  * Class for handling clicks on workspace and all-apps items

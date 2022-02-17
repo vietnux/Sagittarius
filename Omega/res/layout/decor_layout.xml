@@ -3,12 +3,12 @@
 
     <view
         android:id="@+id/content_container"
-        class="com.saggitt.omega.views.DecorLayout$ContentFrameLayout"
+        class="com.tglt.sagittarius.views.DecorLayout$ContentFrameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <view
-            class="com.saggitt.omega.views.DecorLayout$BackScrimView"
+            class="com.tglt.sagittarius.views.DecorLayout$BackScrimView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="?settingsBackground" />
@@ -19,7 +19,7 @@
             android:layout_height="match_parent" />
 
         <view
-            class="com.saggitt.omega.views.DecorLayout$FrontScrimView"
+            class="com.tglt.sagittarius.views.DecorLayout$FrontScrimView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="?settingsBackground" />

@@ -24,7 +24,7 @@ import com.android.launcher3.Insettable;
 import com.android.launcher3.Launcher;
 import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
-import com.saggitt.omega.theme.ThemeManager;
+import com.tglt.sagittarius.theme.ThemeManager;
 
 /**
  * A PageIndicator that briefly shows a fraction of a line when moving between pages

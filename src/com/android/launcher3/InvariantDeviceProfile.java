@@ -50,7 +50,7 @@ import com.android.launcher3.util.IntArray;
 import com.android.launcher3.util.MainThreadInitializedObject;
 import com.android.launcher3.util.Themes;
 import com.android.launcher3.util.WindowBounds;
-import com.saggitt.omega.DeviceProfileOverrides;
+import com.tglt.sagittarius.DeviceProfileOverrides;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

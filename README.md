@@ -1,4 +1,4 @@
-# Omega Launcher
+# Sagittarius Launcher
 
 **Free and Open Source Launcher**
 
@@ -14,7 +14,7 @@ Our builds are available on:
 
 ### *Links*
 
-**Github Releases**: [here](https://github.com/otakuhqz/Omega/releases)
+**Github Releases**: [here](https://github.com/vietnux/Sagittarius/releases)
 
 **F-Droid** Add the links below into your F-Droid client:
 
@@ -89,8 +89,9 @@ There's also a [devloper's document](DEVDOC.md), where the maintainer and collab
 
 ## *Support*
 
-<a href="https://www.paypal.com/paypalme/saulhenriquez"><img src="https://img.shields.io/badge/Paypal-Donate-blue?style=for-the-badge&logo=paypal" alt="Donate via PayPal"/></a>
-<a href="https://www.patreon.com/omegalauncher"><img src="https://img.shields.io/badge/Patreon-Donate-blue?style=for-the-badge&logo=patreon" alt="Donate via Patreon"/></a>
+<a href="https://www.paypal.com/paypalme/vietnux"><img src="https://img.shields.io/badge/Paypal-Donate-blue?style=for-the-badge&logo=paypal" alt="Donate via PayPal"/></a>
+
+[comment]: <> (<a href="https://www.patreon.com/omegalauncher"><img src="https://img.shields.io/badge/Patreon-Donate-blue?style=for-the-badge&logo=patreon" alt="Donate via Patreon"/></a>)
 
 ## *FAQ*
 

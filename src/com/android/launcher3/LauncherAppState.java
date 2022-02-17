@@ -50,8 +50,8 @@ import com.android.launcher3.util.SimpleBroadcastReceiver;
 import com.android.launcher3.util.Themes;
 import com.android.launcher3.widget.DatabaseWidgetPreviewLoader;
 import com.android.launcher3.widget.custom.CustomWidgetManager;
-import com.saggitt.omega.OmegaAppKt;
-import com.saggitt.omega.icons.CustomIconProvider;
+import com.tglt.sagittarius.OmegaAppKt;
+import com.tglt.sagittarius.icons.CustomIconProvider;
 
 public class LauncherAppState {
 

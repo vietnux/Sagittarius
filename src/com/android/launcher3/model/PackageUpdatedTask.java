@@ -51,7 +51,7 @@ import com.android.launcher3.util.ItemInfoMatcher;
 import com.android.launcher3.util.PackageManagerHelper;
 import com.android.launcher3.util.PackageUserKey;
 import com.android.launcher3.util.SafeCloseable;
-import com.saggitt.omega.preferences.OmegaPreferences;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
 
 import java.util.ArrayList;
 import java.util.Arrays;

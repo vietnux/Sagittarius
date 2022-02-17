@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~  This file is part of Omega Launcher
-  ~  Copyright (c) 2021   Omega Launcher Team
+  ~  This file is part of Sagittarius Launcher
+  ~  Copyright (c) 2021   Sagittarius Launcher Team
   ~
   ~  This program is free software: you can redistribute it and/or modify
   ~  it under the terms of the GNU General Public License as
@@ -18,7 +18,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.saggitt.omega.preferences.custom.PreviewPreference
+    <com.tglt.sagittarius.preferences.custom.PreviewPreference
         android:key="pref_smartspace_preview"
         app:previewLayout="@layout/smartspace_preview" />
 
@@ -65,7 +65,7 @@
 
     <PreferenceCategory android:title="@string/category__behavior_weather">
 
-        <com.saggitt.omega.preferences.custom.SmartSpaceProviderPreference
+        <com.tglt.sagittarius.preferences.custom.SmartSpaceProviderPreference
             android:key="pref_smartspace_widget_provider"
             android:summary="%s"
             android:title="@string/title_smartspace_widget_provider"
@@ -81,7 +81,7 @@
             android:title="@string/title_smartspace_weather_units"
             app:iconSpaceReserved="false" />
 
-        <com.saggitt.omega.preferences.custom.EventProvidersPreference
+        <com.tglt.sagittarius.preferences.custom.EventProvidersPreference
             android:dependency="pref_use_pill_qsb"
             android:key="pref_smartspace_event_providers"
             android:title="@string/title_smartspace_event_providers"

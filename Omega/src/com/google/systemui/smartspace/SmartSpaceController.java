@@ -16,7 +16,7 @@ import android.util.Log;
 import com.android.launcher3.Alarm;
 import com.google.android.apps.nexuslauncher.utils.ActionIntentFilter;
 import com.google.android.systemui.smartspace.SmartspaceProto.CardWrapper;
-import com.saggitt.omega.smartspace.FeedBridge;
+import com.tglt.sagittarius.smartspace.FeedBridge;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;

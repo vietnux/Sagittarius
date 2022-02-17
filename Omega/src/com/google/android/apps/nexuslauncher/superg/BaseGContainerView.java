@@ -22,8 +22,8 @@ import androidx.core.app.ActivityOptionsCompat;
 import com.android.launcher3.Launcher;
 import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
-import com.saggitt.omega.search.SearchProvider;
-import com.saggitt.omega.search.SearchProviderController;
+import com.tglt.sagittarius.search.SearchProvider;
+import com.tglt.sagittarius.search.SearchProviderController;
 
 public abstract class BaseGContainerView extends FrameLayout implements View.OnClickListener, SharedPreferences.OnSharedPreferenceChangeListener {
     private static final String TEXT_ASSIST = "com.google.android.googlequicksearchbox.TEXT_ASSIST";

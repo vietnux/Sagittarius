@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ This file is part of Omega Launcher
-  ~ Copyright (c) 2022   Omega Launcher Team
+  ~ This file is part of Sagittarius Launcher
+  ~ Copyright (c) 2022   Sagittarius Launcher Team
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as
@@ -16,7 +16,7 @@
   ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
-<com.saggitt.omega.search.AllAppsQsbLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tglt.sagittarius.search.AllAppsQsbLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/search_container_all_apps"
     android:layout_width="match_parent"
@@ -77,4 +77,4 @@
             tools:visibility="visible" />
     </LinearLayout>
 
-</com.saggitt.omega.search.AllAppsQsbLayout>
+</com.tglt.sagittarius.search.AllAppsQsbLayout>

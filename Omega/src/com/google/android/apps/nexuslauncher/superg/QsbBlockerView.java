@@ -21,11 +21,11 @@ import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.logging.StatsLogManager;
 import com.android.launcher3.model.data.ItemInfo;
-import com.saggitt.omega.OmegaAppKt;
-import com.saggitt.omega.smartspace.OmegaSmartSpaceController;
-import com.saggitt.omega.smartspace.OmegaSmartSpaceController.WeatherData;
-import com.saggitt.omega.smartspace.SmartSpacePreferencesShortcut;
-import com.saggitt.omega.util.OmegaUtilsKt;
+import com.tglt.sagittarius.OmegaAppKt;
+import com.tglt.sagittarius.smartspace.OmegaSmartSpaceController;
+import com.tglt.sagittarius.smartspace.OmegaSmartSpaceController.WeatherData;
+import com.tglt.sagittarius.smartspace.SmartSpacePreferencesShortcut;
+import com.tglt.sagittarius.util.OmegaUtilsKt;
 
 import org.jetbrains.annotations.Nullable;
 

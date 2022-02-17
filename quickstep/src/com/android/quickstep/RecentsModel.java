@@ -39,8 +39,8 @@ import com.android.systemui.shared.system.ActivityManagerWrapper;
 import com.android.systemui.shared.system.KeyguardManagerCompat;
 import com.android.systemui.shared.system.TaskStackChangeListener;
 import com.android.systemui.shared.system.TaskStackChangeListeners;
-import com.saggitt.omega.OmegaApp;
-import com.saggitt.omega.icons.CustomIconProvider;
+import com.tglt.sagittarius.OmegaApp;
+import com.tglt.sagittarius.icons.CustomIconProvider;
 
 import java.util.ArrayList;
 import java.util.List;

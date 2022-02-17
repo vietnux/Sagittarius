@@ -38,7 +38,7 @@ import com.android.launcher3.folder.PreviewBackground;
 import com.android.launcher3.graphics.ShiftedBitmapDrawable;
 import com.android.launcher3.icons.BitmapRenderer;
 import com.android.launcher3.util.Preconditions;
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
 
 /**
  * {@link AdaptiveIconDrawable} representation of a {@link FolderIcon}

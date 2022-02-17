@@ -6,7 +6,7 @@ import android.content.ServiceConnection;
 import android.os.IBinder;
 import android.util.Log;
 
-import com.saggitt.omega.smartspace.FeedBridge;
+import com.tglt.sagittarius.smartspace.FeedBridge;
 
 public class BaseClientService implements ServiceConnection {
     private final Context mContext;

@@ -46,8 +46,8 @@ import com.android.launcher3.R;
 import com.android.launcher3.folder.FolderIcon;
 import com.android.launcher3.model.data.AppInfo;
 import com.android.launcher3.util.PackageManagerHelper;
-import com.saggitt.omega.groups.DrawerFolderInfo;
-import com.saggitt.omega.groups.DrawerFolderItem;
+import com.tglt.sagittarius.groups.DrawerFolderInfo;
+import com.tglt.sagittarius.groups.DrawerFolderItem;
 
 import java.util.Arrays;
 import java.util.List;

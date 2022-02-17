@@ -17,7 +17,7 @@
 package com.android.launcher3;
 
 import static com.android.launcher3.model.data.ItemInfoWithIcon.FLAG_ICON_BADGED;
-import static com.saggitt.omega.util.Config.REQUEST_PERMISSION_STORAGE_ACCESS;
+import static com.tglt.sagittarius.util.Config.REQUEST_PERMISSION_STORAGE_ACCESS;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -101,8 +101,8 @@ import com.android.launcher3.util.IntArray;
 import com.android.launcher3.util.PackageManagerHelper;
 import com.android.launcher3.views.BaseDragLayer;
 import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.saggitt.omega.preferences.OmegaPreferences;
-import com.saggitt.omega.util.Config;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
+import com.tglt.sagittarius.util.Config;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 Omega Launcher
+ * Copyright (c) 2020 Sagittarius Launcher
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -31,8 +31,8 @@ import androidx.annotation.NonNull;
 
 import com.android.launcher3.Launcher;
 import com.android.launcher3.util.PackageManagerHelper;
-import com.saggitt.omega.smartspace.weather.icons.WeatherIconManager;
-import com.saggitt.omega.util.OmegaUtilsKt;
+import com.tglt.sagittarius.smartspace.weather.icons.WeatherIconManager;
+import com.tglt.sagittarius.util.OmegaUtilsKt;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

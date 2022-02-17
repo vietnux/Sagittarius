@@ -31,7 +31,7 @@ import com.google.android.systemui.smartspace.SmartspaceProto.SmartSpaceUpdate.S
 import com.google.android.systemui.smartspace.SmartspaceProto.SmartSpaceUpdate.SmartSpaceCard.Message.FormattedText;
 import com.google.android.systemui.smartspace.SmartspaceProto.SmartSpaceUpdate.SmartSpaceCard.Message.FormattedText.FormatParam;
 import com.google.protobuf.ByteString;
-import com.saggitt.omega.smartspace.FeedBridge;
+import com.tglt.sagittarius.smartspace.FeedBridge;
 
 public class SmartSpaceCardView {
     private final SmartSpaceCard mSmartSpaceCard;

@@ -20,7 +20,7 @@ import android.content.res.Resources;
 
 import com.android.launcher3.R;
 import com.android.launcher3.util.Themes;
-import com.saggitt.omega.util.OmegaUtilsKt;
+import com.tglt.sagittarius.util.OmegaUtilsKt;
 
 public class TaskCornerRadius {
 

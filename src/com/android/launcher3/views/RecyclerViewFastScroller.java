@@ -49,8 +49,8 @@ import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.graphics.FastScrollThumbDrawable;
 import com.android.launcher3.util.Themes;
-import com.saggitt.omega.preferences.OmegaPreferences;
-import com.saggitt.omega.util.Config;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
+import com.tglt.sagittarius.util.Config;
 
 import java.util.Collections;
 import java.util.List;

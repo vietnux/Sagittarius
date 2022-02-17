@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~  This file is part of Omega Launcher
-  ~  Copyright (c) 2021   Omega Launcher Team
+  ~  This file is part of Sagittarius Launcher
+  ~  Copyright (c) 2021   Sagittarius Launcher Team
   ~
   ~  This program is free software: you can redistribute it and/or modify
   ~  it under the terms of the GNU General Public License as
@@ -20,7 +20,7 @@
 
     <PreferenceCategory android:title="@string/cat_drawer_icons">
 
-        <com.saggitt.omega.preferences.custom.SeekbarPreference
+        <com.tglt.sagittarius.preferences.custom.SeekbarPreference
             android:key="pref_home_icon_scale"
             android:title="@string/title__desktop_icon_size"
             app:defaultSeekbarValue="1.0"
@@ -46,7 +46,7 @@
             android:title="@string/title__multiline_labels"
             app:iconSpaceReserved="false" />
 
-        <com.saggitt.omega.preferences.custom.SeekbarPreference
+        <com.tglt.sagittarius.preferences.custom.SeekbarPreference
             android:dependency="pref_hide_app_label"
             android:key="pref_icon_text_scale"
             android:persistent="true"
@@ -58,7 +58,7 @@
             app:summaryFormat="%.0f%%"
             app:summaryMultiplier="100" />
 
-        <com.saggitt.omega.preferences.custom.CustomDialogPreference
+        <com.tglt.sagittarius.preferences.custom.CustomDialogPreference
             android:key="pref_icon_popup_menu"
             android:title="@string/title_desktop_icon_popup_menu"
             app:content="@xml/desktop_icon_popup"
@@ -121,7 +121,7 @@
         app:iconSpaceReserved="false" />
 
     <Preference
-        android:fragment="com.saggitt.omega.dash.DashFragment"
+        android:fragment="com.tglt.sagittarius.dash.DashFragment"
         android:key="pref_dash_providers"
         android:summary="@string/edit_dash_summary"
         android:title="@string/edit_dash"

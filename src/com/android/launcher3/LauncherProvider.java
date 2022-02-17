@@ -72,7 +72,7 @@ import com.android.launcher3.util.NoLocaleSQLiteHelper;
 import com.android.launcher3.util.PackageManagerHelper;
 import com.android.launcher3.util.Thunk;
 import com.android.launcher3.widget.LauncherAppWidgetHost;
-import com.saggitt.omega.OmegaAppKt;
+import com.tglt.sagittarius.OmegaAppKt;
 
 import org.xmlpull.v1.XmlPullParser;
 

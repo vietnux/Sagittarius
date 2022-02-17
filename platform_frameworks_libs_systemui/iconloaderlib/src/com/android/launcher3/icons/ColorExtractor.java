@@ -15,7 +15,7 @@
  */
 package com.android.launcher3.icons;
 
-import static com.saggitt.omega.icons.IconPreferencesKt.drawableToBitmap;
+import static com.tglt.sagittarius.icons.IconPreferencesKt.drawableToBitmap;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;

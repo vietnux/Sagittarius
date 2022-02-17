@@ -15,10 +15,10 @@
  */
 package com.android.launcher3.allapps;
 
-import static com.saggitt.omega.util.Config.SORT_AZ;
-import static com.saggitt.omega.util.Config.SORT_BY_COLOR;
-import static com.saggitt.omega.util.Config.SORT_MOST_USED;
-import static com.saggitt.omega.util.Config.SORT_ZA;
+import static com.tglt.sagittarius.util.Config.SORT_AZ;
+import static com.tglt.sagittarius.util.Config.SORT_BY_COLOR;
+import static com.tglt.sagittarius.util.Config.SORT_MOST_USED;
+import static com.tglt.sagittarius.util.Config.SORT_ZA;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -34,12 +34,12 @@ import com.android.launcher3.model.data.AppInfo;
 import com.android.launcher3.util.ComponentKey;
 import com.android.launcher3.util.ItemInfoMatcher;
 import com.android.launcher3.util.LabelComparator;
-import com.saggitt.omega.allapps.AppColorComparator;
-import com.saggitt.omega.allapps.AppCountInfo;
-import com.saggitt.omega.allapps.AppUsageComparator;
-import com.saggitt.omega.groups.DrawerFolderInfo;
-import com.saggitt.omega.preferences.OmegaPreferences;
-import com.saggitt.omega.util.DbHelper;
+import com.tglt.sagittarius.allapps.AppColorComparator;
+import com.tglt.sagittarius.allapps.AppCountInfo;
+import com.tglt.sagittarius.allapps.AppUsageComparator;
+import com.tglt.sagittarius.groups.DrawerFolderInfo;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
+import com.tglt.sagittarius.util.DbHelper;
 
 import java.text.Collator;
 import java.util.ArrayList;

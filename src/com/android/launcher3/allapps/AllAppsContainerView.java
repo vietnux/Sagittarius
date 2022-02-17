@@ -71,10 +71,10 @@ import com.android.launcher3.views.RecyclerViewFastScroller;
 import com.android.launcher3.views.ScrimView;
 import com.android.launcher3.views.SpringRelativeLayout;
 import com.android.launcher3.workprofile.PersonalWorkSlidingTabStrip;
-import com.saggitt.omega.allapps.AllAppsTabItem;
-import com.saggitt.omega.allapps.AllAppsTabs;
-import com.saggitt.omega.allapps.AllAppsTabsController;
-import com.saggitt.omega.util.OmegaUtilsKt;
+import com.tglt.sagittarius.allapps.AllAppsTabItem;
+import com.tglt.sagittarius.allapps.AllAppsTabs;
+import com.tglt.sagittarius.allapps.AllAppsTabsController;
+import com.tglt.sagittarius.util.OmegaUtilsKt;
 
 /**
  * The all apps view container.

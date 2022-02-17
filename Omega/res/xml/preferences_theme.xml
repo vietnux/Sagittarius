@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~  This file is part of Omega Launcher
-  ~  Copyright (c) 2021   Omega Launcher Team
+  ~  This file is part of Sagittarius Launcher
+  ~  Copyright (c) 2021   Sagittarius Launcher Team
   ~
   ~  This program is free software: you can redistribute it and/or modify
   ~  it under the terms of the GNU General Public License as
@@ -19,7 +19,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.saggitt.omega.preferences.custom.ThemePreference
+    <com.tglt.sagittarius.preferences.custom.ThemePreference
         android:defaultValue="8"
         android:key="pref_launcherTheme"
         android:title="@string/title__general_theme"
@@ -38,15 +38,15 @@
         app:cpv_showColorShades="false"
         app:iconSpaceReserved="false" />
 
-    <com.saggitt.omega.preferences.custom.IconPackPreference
-        android:fragment="com.saggitt.omega.preferences.views.IconPackFragment"
+    <com.tglt.sagittarius.preferences.custom.IconPackPreference
+        android:fragment="com.tglt.sagittarius.preferences.views.IconPackFragment"
         android:key="pref_icon_packs"
         android:title="@string/title_theme_icon_packs"
         app:iconSpaceReserved="false" />
 
     <Preference
         android:key="pref_icon_shape"
-        android:fragment="com.saggitt.omega.preferences.views.IconShapeFragment"
+        android:fragment="com.tglt.sagittarius.preferences.views.IconShapeFragment"
         android:title="@string/title_theme_customize_icons"
         app:iconSpaceReserved="false" />
 
@@ -72,7 +72,7 @@
         app:iconSpaceReserved="false"
         app:title="@string/title_override_corner_radius" />
 
-    <com.saggitt.omega.preferences.custom.SeekbarPreference
+    <com.tglt.sagittarius.preferences.custom.SeekbarPreference
         android:dependency="pref_customWindowCorner"
         android:key="pref_customWindowCornerRadius"
         android:title="@string/title_override_corner_radius_value"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~  This file is part of Omega Launcher
+  ~  This file is part of Sagittarius Launcher
   ~  Copyright (c) 2021   Saul Henriquez
   ~
   ~  This program is free software: you can redistribute it and/or modify
@@ -22,7 +22,7 @@
         android:key="pref_app_hide"
         android:title="@string/hide_app" />
 
-    <com.saggitt.omega.preferences.custom.MultiSelectTabPreference
+    <com.tglt.sagittarius.preferences.custom.MultiSelectTabPreference
         android:key="pref_show_in_tabs"
         android:title="@string/app_categorization_tabs" />
 

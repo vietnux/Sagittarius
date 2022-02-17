@@ -15,7 +15,7 @@
   ~     along with Lawnchair Launcher.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
-<com.saggitt.omega.views.ColoredButton xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tglt.sagittarius.views.ColoredButton xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"

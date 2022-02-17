@@ -203,9 +203,9 @@ import com.android.systemui.plugins.shared.LauncherExterns;
 import com.android.systemui.plugins.shared.LauncherOverlayManager;
 import com.android.systemui.plugins.shared.LauncherOverlayManager.LauncherOverlay;
 import com.android.systemui.plugins.shared.LauncherOverlayManager.LauncherOverlayCallbacks;
-import com.saggitt.omega.OmegaApp;
-import com.saggitt.omega.OmegaLauncher;
-import com.saggitt.omega.util.Config;
+import com.tglt.sagittarius.OmegaApp;
+import com.tglt.sagittarius.OmegaLauncher;
+import com.tglt.sagittarius.util.Config;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

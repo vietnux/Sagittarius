@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~  This file is part of Omega Launcher
+  ~  This file is part of Sagittarius Launcher
   ~  Copyright (c) 2021   Saul Henriquez
   ~
   ~  This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
   ~  You should have received a copy of the GNU General Public License
   ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="derived_app_name" translatable="false">Omega Launcher</string>
+    <string name="derived_app_name" translatable="false">Sagittarius Launcher</string>
     <string name="app_version" translatable="false">Version</string>
     <string name="app_build" translatable="false">Build</string>
     <string name="default_folder_name">New Folder</string>
@@ -38,7 +38,7 @@
     <string name="summary__general_smartspace">Date, time, home widget</string>
     <string name="summary__general_notifications">Badge count, badge color, gestures</string>
     <string name="summary__general_advanced">Language, back up, setting search</string>
-    <string name="summary__general_about">More about Omega Launcher</string>
+    <string name="summary__general_about">More about Sagittarius Launcher</string>
     <string name="pref_category__interfaces">User Interface</string>
     <string name="pref_category__inputs">Gestures and Search</string>
     <string name="pref_category__others">Others</string>
@@ -450,16 +450,18 @@
     <string name="title__about_changelog">Changelog</string>
     <string name="about_copyright">Copyright © 2020–2021</string>
     <string name="about_team">Team Members</string>
+    <string name="about_thank">Thank Otakuhqz!</string>
     <string name="about_translators_group">Contributors and Translators</string>
     <string name="about_translators">Translators</string>
     <string name="about_source">Source Code</string>
     <string name="about_channel">Channel</string>
     <string name="about_community">Community</string>
     <string name="about_open_source">Open Source Libraries</string>
-    <string name="about_source_url" translatable="false">https://github.com/otakuhqz/Omega</string>
+    <string name="about_source_url" translatable="false">https://github.com/vietnux/Sagittarius</string>
     <string name="category__about_licenses">License</string>
     <string name="license_gpl" translatable="false">GPLv3+</string>
     <string name="app_donate_url" translatable="false">https://paypal.me/saulhenriquez</string>
+    <string name="team_code" translatable="false">Vietnux</string>
     <string name="author" translatable="false">Saul Henriquez</string>
     <string name="author_role" translatable="false">Developer</string>
     <string name="contributor1" translatable="false">Antonios Hazim</string>

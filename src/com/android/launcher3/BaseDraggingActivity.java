@@ -64,7 +64,7 @@ import com.android.launcher3.util.RunnableList;
 import com.android.launcher3.util.Themes;
 import com.android.launcher3.util.TraceHelper;
 import com.android.launcher3.util.WindowBounds;
-import com.saggitt.omega.theme.ThemeOverride;
+import com.tglt.sagittarius.theme.ThemeOverride;
 
 /**
  * Extension of BaseActivity allowing support for drag-n-drop

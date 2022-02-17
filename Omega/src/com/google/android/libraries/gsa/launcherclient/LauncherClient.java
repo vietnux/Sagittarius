@@ -23,8 +23,8 @@ import android.view.WindowManager.LayoutParams;
 
 import com.google.android.libraries.launcherclient.ILauncherOverlay;
 import com.google.android.libraries.launcherclient.ILauncherOverlayCallback;
-import com.saggitt.omega.smartspace.FeedBridge;
-import com.saggitt.omega.smartspace.FeedBridge.BridgeInfo;
+import com.tglt.sagittarius.smartspace.FeedBridge;
+import com.tglt.sagittarius.smartspace.FeedBridge.BridgeInfo;
 
 import java.lang.ref.WeakReference;
 

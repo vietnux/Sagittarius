@@ -35,7 +35,7 @@ import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.icons.cache.CachingLogic;
 import com.android.launcher3.shortcuts.ShortcutKey;
 import com.android.launcher3.util.Themes;
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
 
 /**
  * Caching logic for shortcuts.

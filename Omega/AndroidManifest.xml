@@ -36,7 +36,7 @@
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
 
     <application
-        android:name="com.saggitt.omega.OmegaApp"
+        android:name="com.tglt.sagittarius.OmegaApp"
         android:backupAgent="com.android.launcher3.LauncherBackupAgent"
         android:fullBackupContent="@xml/backupscheme"
         android:fullBackupOnly="true"
@@ -59,7 +59,7 @@
         attributes and intent filters the same
         -->
         <activity
-            android:name="com.saggitt.omega.OmegaLauncher"
+            android:name="com.tglt.sagittarius.OmegaLauncher"
             android:clearTaskOnLaunch="true"
             android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenSize|screenLayout|smallestScreenSize|density"
             android:launchMode="singleTask"
@@ -91,7 +91,7 @@
             tools:node="remove" />
 
         <activity
-            android:name="com.saggitt.omega.preferences.views.PreferencesActivity"
+            android:name="com.tglt.sagittarius.preferences.views.PreferencesActivity"
             android:autoRemoveFromRecents="true"
             android:exported="true"
             android:label="@string/settings_button_text"
@@ -103,19 +103,19 @@
         </activity>
 
         <activity
-            android:name="com.saggitt.omega.gestures.ui.SelectAppActivity"
+            android:name="com.tglt.sagittarius.gestures.ui.SelectAppActivity"
             android:exported="true"
             android:label="@string/action_open_app_select_app"
             android:theme="@style/SettingsTheme.Light" />
 
         <activity
-            android:name="com.saggitt.omega.BlankActivity"
+            android:name="com.tglt.sagittarius.BlankActivity"
             android:exported="true"
             android:theme="@style/Theme.Transparent" />
 
         <!-- Actions -->
         <activity
-            android:name="com.saggitt.omega.gestures.OmegaShortcutActivity"
+            android:name="com.tglt.sagittarius.gestures.OmegaShortcutActivity"
             android:exported="false"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/omega_actions"
@@ -128,12 +128,12 @@
         </activity>
 
         <activity
-            android:name="com.saggitt.omega.gestures.ui.RunHandlerActivity"
+            android:name="com.tglt.sagittarius.gestures.ui.RunHandlerActivity"
             android:exported="false"
             android:taskAffinity="${applicationId}.tasks.RUN_HANDLER"
             android:theme="@style/SettingsTheme.Light">
             <intent-filter>
-                <action android:name="com.saggitt.omega.START_ACTION" />
+                <action android:name="com.tglt.sagittarius.START_ACTION" />
                 <action android:name="android.intent.action.ASSIST" />
                 <action android:name="android.intent.action.SEARCH_LONG_PRESS" />
 
@@ -142,7 +142,7 @@
         </activity>
 
         <activity
-            android:name="com.saggitt.omega.FakeLauncher"
+            android:name="com.tglt.sagittarius.FakeLauncher"
             android:enabled="false"
             android:exported="true">
             <intent-filter>
@@ -156,7 +156,7 @@
         <!-- DT2S using device admin -->
         <receiver
             android:description="@string/dt2s_admin_hint"
-            android:name="com.saggitt.omega.gestures.handlers.SleepMethodDeviceAdmin$SleepDeviceAdmin"
+            android:name="com.tglt.sagittarius.gestures.handlers.SleepMethodDeviceAdmin$SleepDeviceAdmin"
             android:permission="android.permission.BIND_DEVICE_ADMIN"
             android:exported="true">
             <meta-data
@@ -170,7 +170,7 @@
 
 
         <service
-            android:name="com.saggitt.omega.OmegaAccessibilityService"
+            android:name="com.tglt.sagittarius.OmegaAccessibilityService"
             android:exported="true"
             android:label="@string/derived_app_name"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
@@ -185,7 +185,7 @@
             android:process=":wallpaper_chooser" />
 
         <receiver
-            android:name="com.saggitt.omega.widget.ClockWidget"
+            android:name="com.tglt.sagittarius.widget.ClockWidget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

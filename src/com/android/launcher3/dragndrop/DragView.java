@@ -66,7 +66,7 @@ import com.android.launcher3.util.RunnableList;
 import com.android.launcher3.util.Thunk;
 import com.android.launcher3.views.BaseDragLayer;
 import com.android.launcher3.widget.LauncherAppWidgetHostView;
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
 
 /**
  * A custom view for rendering an icon, folder, shortcut or widget during drag-n-drop.

@@ -43,8 +43,8 @@ import androidx.arch.core.util.Function;
 
 import com.android.launcher3.icons.BitmapInfo.Extender;
 import com.android.launcher3.icons.cache.BaseIconCache;
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
-import com.saggitt.omega.icons.ExtendedBitmapDrawable;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.ExtendedBitmapDrawable;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

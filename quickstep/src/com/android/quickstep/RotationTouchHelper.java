@@ -35,7 +35,7 @@ import com.android.launcher3.util.MainThreadInitializedObject;
 import com.android.quickstep.util.RecentsOrientedState;
 import com.android.systemui.shared.system.TaskStackChangeListener;
 import com.android.systemui.shared.system.TaskStackChangeListeners;
-import com.saggitt.omega.util.OmegaUtilsKt;
+import com.tglt.sagittarius.util.OmegaUtilsKt;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;

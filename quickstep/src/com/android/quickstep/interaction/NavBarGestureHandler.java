@@ -52,7 +52,7 @@ import com.android.quickstep.SysUINavigationMode.Mode;
 import com.android.quickstep.util.MotionPauseDetector;
 import com.android.quickstep.util.NavBarPosition;
 import com.android.quickstep.util.TriggerSwipeUpTouchTracker;
-import com.saggitt.omega.util.OmegaUtilsKt;
+import com.tglt.sagittarius.util.OmegaUtilsKt;
 
 /**
  * Utility class to handle Home and Assistant gestures.

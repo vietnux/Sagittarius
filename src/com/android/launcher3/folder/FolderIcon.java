@@ -82,8 +82,8 @@ import com.android.launcher3.util.Thunk;
 import com.android.launcher3.views.ActivityContext;
 import com.android.launcher3.views.IconLabelDotView;
 import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.saggitt.omega.groups.DrawerFolderInfo;
-import com.saggitt.omega.preferences.OmegaPreferences;
+import com.tglt.sagittarius.groups.DrawerFolderInfo;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
 
 import java.util.ArrayList;
 import java.util.List;

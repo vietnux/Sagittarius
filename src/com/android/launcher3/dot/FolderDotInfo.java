@@ -19,7 +19,7 @@ package com.android.launcher3.dot;
 import android.view.ViewDebug;
 
 import com.android.launcher3.Utilities;
-import com.saggitt.omega.OmegaLauncher;
+import com.tglt.sagittarius.OmegaLauncher;
 
 /**
  * Subclass of DotInfo that only contains the dot count, which is

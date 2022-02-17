@@ -66,7 +66,7 @@ import com.android.launcher3.model.data.WorkspaceItemInfo;
 import com.android.launcher3.util.SafeCloseable;
 import com.android.launcher3.views.ActivityContext;
 import com.android.launcher3.views.IconLabelDotView;
-import com.saggitt.omega.preferences.OmegaPreferences;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
 
 import java.text.NumberFormat;
 

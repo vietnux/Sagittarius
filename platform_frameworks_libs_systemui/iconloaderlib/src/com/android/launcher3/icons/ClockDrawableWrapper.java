@@ -47,8 +47,8 @@ import androidx.annotation.Nullable;
 import androidx.core.util.Supplier;
 
 import com.android.launcher3.icons.ThemedIconDrawable.ThemeData;
-import com.saggitt.omega.icons.ClockMetadata;
-import com.saggitt.omega.icons.CustomAdaptiveIconDrawable;
+import com.tglt.sagittarius.icons.ClockMetadata;
+import com.tglt.sagittarius.icons.CustomAdaptiveIconDrawable;
 
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;

@@ -166,7 +166,7 @@ import com.android.systemui.shared.system.SyncRtSurfaceTransactionApplierCompat.
 import com.android.systemui.shared.system.TaskStackChangeListener;
 import com.android.systemui.shared.system.TaskStackChangeListeners;
 import com.android.wm.shell.pip.IPipAnimationListener;
-import com.saggitt.omega.OmegaApp;
+import com.tglt.sagittarius.OmegaApp;
 
 import java.util.ArrayList;
 import java.util.List;

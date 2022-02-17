@@ -32,7 +32,7 @@ import com.android.systemui.shared.system.ActivityManagerWrapper;
 import com.android.systemui.shared.system.KeyguardManagerCompat;
 import com.android.systemui.shared.system.TaskStackChangeListener;
 import com.android.systemui.shared.system.TaskStackChangeListeners;
-import com.saggitt.omega.OmegaApp;
+import com.tglt.sagittarius.OmegaApp;
 
 import java.util.ArrayList;
 import java.util.Collections;

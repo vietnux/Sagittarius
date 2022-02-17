@@ -23,8 +23,8 @@ import com.android.launcher3.graphics.BitmapCreationCheck;
 import com.android.launcher3.graphics.IconShape;
 import com.android.launcher3.logging.FileLog;
 import com.android.launcher3.util.ResourceBasedOverride;
-import com.saggitt.omega.icons.IconShapeManager;
-import com.saggitt.omega.preferences.OmegaPreferences;
+import com.tglt.sagittarius.icons.IconShapeManager;
+import com.tglt.sagittarius.preferences.OmegaPreferences;
 
 /**
  * Utility class to handle one time initializations of the main process
