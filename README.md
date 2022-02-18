@@ -1,7 +1,8 @@
 # Sagittarius Launcher
 
 **Free and Open Source Launcher**
-Sagittarius Launcher is a powerful, customizable, and versatile home screen replacement. Sagittarius Launcher brings advanced features to enhance your home screens, but still remains a great, user-friendly choice for everyone. Whether you want to completely overhaul your home screens or are looking for a cleaner, faster home launcher, Sagittarius Launcher is the answer.
+
+*Sagittarius Launcher is a powerful, customizable, and versatile home screen replacement. Sagittarius Launcher brings advanced features to enhance your home screens, but still remains a great, user-friendly choice for everyone. Whether you want to completely overhaul your home screens or are looking for a cleaner, faster home launcher, Sagittarius Launcher is the answer.*
 
 ## *Installation & Download*
 
