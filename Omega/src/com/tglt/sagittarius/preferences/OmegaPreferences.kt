@@ -238,9 +238,13 @@ class OmegaPreferences(val context: Context) : BasePreferences(context) {
     val drawerPopupEdit by BooleanPref(PREFS_DRAWER_POPUP_EDIT, true, doNothing)
     val drawerPopupUninstall by BooleanPref(PREFS_DRAWER_POPUP_UNINSTALL, false, doNothing)
 
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String?) {
         onChangeMap[key]?.invoke()
-        onChangeListeners[key]?.toSet()?.forEach { it.onValueChanged(key, this, false) }
+        onChangeListeners[key]?.toSet()?.forEach {
+            if (key != null) {
+                it.onValueChanged(key, this, false)
+            }
+        }
     }
 
     fun addOnPreferenceChangeListener(listener: OnPreferenceChangeListener, vararg keys: String) {

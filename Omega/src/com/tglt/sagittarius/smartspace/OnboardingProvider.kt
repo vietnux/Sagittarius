@@ -50,7 +50,7 @@ class OnboardingProvider(controller: OmegaSmartSpaceController) :
         prefs.unregisterOnSharedPreferenceChangeListener(this)
     }
 
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String?) {
         val keys = when (sharedPreferences) {
             devicePrefs -> deviceKeys
             prefs -> prefKeys

@@ -50,7 +50,13 @@ class GesturePreference(context: Context, attrs: AttributeSet?) :
         preferenceManager.sharedPreferences!!.unregisterOnSharedPreferenceChangeListener(this)
     }
 
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String) {
+//    fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String) {
+//        if (key == this.key) {
+//            value = getPersistedString(defaultValue)
+//            notifyChanged()
+//        }
+//    }
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {
         if (key == this.key) {
             value = getPersistedString(defaultValue)
             notifyChanged()

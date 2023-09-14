@@ -76,6 +76,8 @@ class DecorLayout(context: Context) : InsettableFrameLayout(context, null),
             background = BlurWallpaperProvider.getInstance(context).createDrawable().apply {
                 startListening()
             }
+        } else {
+
         }
     }
 

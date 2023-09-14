@@ -55,12 +55,12 @@ class GestureTouchConsumer(
 
     private val gestureDetector = GestureDetector(context, object :
         GestureDetector.SimpleOnGestureListener() {
-        override fun onFling(
-            e1: MotionEvent, e2: MotionEvent, velocityX: Float,
-            velocityY: Float
-        ): Boolean {
-            return this@GestureTouchConsumer.onFling(velocityX, velocityY)
-        }
+//        fun onFling(
+//            e1: MotionEvent, e2: MotionEvent, velocityX: Float,
+//            velocityY: Float
+//        ): Boolean {
+//            return this@GestureTouchConsumer.onFling(velocityX, velocityY)
+//        }
     })
 
     private val downPos = PointF()

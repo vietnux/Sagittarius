@@ -20,6 +20,7 @@ import android.content.pm.LauncherActivityInfo;
 import android.content.pm.LauncherApps;
 import android.content.pm.PackageInstaller.SessionInfo;
 import android.os.UserHandle;
+import android.util.Log;
 import android.util.LongSparseArray;
 import android.util.Pair;
 
@@ -69,7 +70,12 @@ public class AddWorkspaceItemsTask extends BaseModelUpdateTask {
         final IntArray addedWorkspaceScreensFinal = new IntArray();
 
         synchronized(dataModel) {
-            IntArray workspaceScreens = dataModel.collectWorkspaceScreens();
+            IntArray workspaceScreens = null;
+            try {
+                workspaceScreens = dataModel.collectWorkspaceScreens();
+            } catch (Exception e) {
+                Log.e( "AddWork", e.toString());
+            }
 
             List<ItemInfo> filteredItems = new ArrayList<>();
             for (Pair<ItemInfo, Object> entry : mItemList) {

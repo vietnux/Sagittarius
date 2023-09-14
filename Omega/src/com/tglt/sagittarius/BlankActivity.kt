@@ -70,7 +70,7 @@ class BlankActivity : AppCompatActivity() {
                 if (intent.hasExtra("dialogTitle")) {
                     startActivity(intent.getParcelableExtra("intent"))
                 } else {
-                    startActivityForResult(intent.getParcelableExtra("intent"), requestCode)
+                    startActivityForResult(intent.getParcelableExtra("intent")!!, requestCode)
                 }
             }
             intent.hasExtra("permissions") -> ActivityCompat.requestPermissions(

@@ -174,12 +174,16 @@ public class LoaderTask implements Runnable {
     private void sendFirstScreenActiveInstallsBroadcast() {
         ArrayList<ItemInfo> firstScreenItems = new ArrayList<>();
         ArrayList<ItemInfo> allItems = mBgDataModel.getAllWorkspaceItems();
-        // Screen set is never empty
-        final int firstScreen = mBgDataModel.collectWorkspaceScreens().get(0);
+        try {
+            // Screen set is never empty
+            final int firstScreen = mBgDataModel.collectWorkspaceScreens().get(0);
 
-        filterCurrentWorkspaceItems(firstScreen, allItems, firstScreenItems,
-                new ArrayList<>() /* otherScreenItems are ignored */);
-        mFirstScreenBroadcast.sendBroadcasts(mApp.getContext(), firstScreenItems);
+            filterCurrentWorkspaceItems(firstScreen, allItems, firstScreenItems,
+                    new ArrayList<>() /* otherScreenItems are ignored */);
+            mFirstScreenBroadcast.sendBroadcasts(mApp.getContext(), firstScreenItems);
+        } catch (Exception e) {
+            Log.e( TAG, e.toString());
+        }
     }
 
     public void run() {

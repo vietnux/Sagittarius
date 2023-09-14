@@ -78,7 +78,8 @@ fun ListItemWithIcon(
                 modifier = Modifier
                     .weight(1f)
                     .addIf(!isEnabled) {
-                        alpha(ContentAlpha.disabled)
+//                        alpha(ContentAlpha.disabled)
+                        alpha(0.3f)
                     }
             ) {
                 CompositionLocalProvider(

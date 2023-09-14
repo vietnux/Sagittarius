@@ -69,7 +69,8 @@ fun PreferenceItem(
                 modifier = Modifier
                     .weight(1f)
                     .addIf(!enabled) {
-                        alpha(ContentAlpha.disabled)
+//                        alpha(ContentAlpha.disabled)
+                        alpha(0.3f)
                     }
             ) {
                 CompositionLocalProvider(

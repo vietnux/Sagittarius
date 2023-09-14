@@ -79,12 +79,16 @@ public abstract class BaseLoaderResults {
         ArrayList<FixedContainerItems> extraItems = new ArrayList<>();
 
         synchronized (mBgDataModel) {
-            workspaceItems.addAll(mBgDataModel.workspaceItems);
-            appWidgets.addAll(mBgDataModel.appWidgets);
-            orderedScreenIds.addAll(mBgDataModel.collectWorkspaceScreens());
-            mBgDataModel.extraItems.forEach(extraItems::add);
-            mBgDataModel.lastBindId++;
-            mMyBindingId = mBgDataModel.lastBindId;
+            try {
+                workspaceItems.addAll(mBgDataModel.workspaceItems);
+                appWidgets.addAll(mBgDataModel.appWidgets);
+                orderedScreenIds.addAll(mBgDataModel.collectWorkspaceScreens());
+                mBgDataModel.extraItems.forEach(extraItems::add);
+                mBgDataModel.lastBindId++;
+                mMyBindingId = mBgDataModel.lastBindId;
+            } catch (Exception e) {
+                Log.e( TAG, e.toString());
+            }
         }
 
         for (Callbacks cb : mCallbacksList) {

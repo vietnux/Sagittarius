@@ -33,6 +33,7 @@ import android.content.ComponentName;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.content.ServiceConnection;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.CancellationSignal;
 import android.os.IBinder;
@@ -40,6 +41,7 @@ import android.view.View;
 import android.window.SplashScreen;
 
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.dragndrop.DragOptions;
@@ -440,6 +442,7 @@ public abstract class BaseQuickstepLauncher extends Launcher
                 super.getSupportedShortcuts());
     }
 
+//    @RequiresApi(api = Build.VERSION_CODES.TIRAMISU)
     @Override
     public ActivityOptionsWrapper getActivityLaunchOptions(View v, @Nullable ItemInfo item) {
         ActivityOptionsWrapper activityOptions =
@@ -451,7 +454,7 @@ public abstract class BaseQuickstepLauncher extends Launcher
                     activityOptions.options, mLastTouchUpTime);
         }
         if (Utilities.ATLEAST_S) {
-            activityOptions.options.setSplashscreenStyle(SplashScreen.SPLASH_SCREEN_STYLE_ICON);
+//                activityOptions.options.setSplashScreenStyle(SplashScreen.SPLASH_SCREEN_STYLE_ICON);
             addLaunchCookie(item, activityOptions.options);
         }
         return activityOptions;
@@ -476,7 +479,7 @@ public abstract class BaseQuickstepLauncher extends Launcher
                     break;
                 }
                 // Reset any existing launch cookies associated with the cookie
-                opts.setLaunchCookie(ObjectWrapper.wrap(NO_MATCHING_ID));
+//                opts.setLaunchCookie(ObjectWrapper.wrap(NO_MATCHING_ID));
                 return;
         }
         switch (info.itemType) {
@@ -488,10 +491,10 @@ public abstract class BaseQuickstepLauncher extends Launcher
                 break;
             default:
                 // Reset any existing launch cookies associated with the cookie
-                opts.setLaunchCookie(ObjectWrapper.wrap(NO_MATCHING_ID));
+//                opts.setLaunchCookie(ObjectWrapper.wrap(NO_MATCHING_ID));
                 return;
         }
-        opts.setLaunchCookie(ObjectWrapper.wrap(new Integer(info.id)));
+//        opts.setLaunchCookie(ObjectWrapper.wrap(new Integer(info.id)));
     }
 
     public void setHintUserWillBeActive() {

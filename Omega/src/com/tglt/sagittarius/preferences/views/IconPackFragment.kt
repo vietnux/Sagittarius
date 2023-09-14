@@ -97,7 +97,7 @@ class IconPackFragment : Fragment(), SharedPreferences.OnSharedPreferenceChangeL
         requireActivity().title = requireActivity().getString(R.string.icon_pack)
     }
 
-    override fun onSharedPreferenceChanged(sharedPrefs: SharedPreferences?, key: String) {
+    override fun onSharedPreferenceChanged(sharedPrefs: SharedPreferences?, key: String?) {
         if (key == "pref_icon_pack_package") {
             this@IconPackFragment.recreate()
         }
